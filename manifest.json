@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "Tab Index",
     "version": "0.1",
-    "description": "为标签增加index",
+    "description": "为标签增加索引",
     "permissions" :[
         "tabs"
     ],
