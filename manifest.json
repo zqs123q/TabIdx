@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Tab Index",
+    "version": "0.1",
+    "description": "为标签增加index",
+    "permissions" :[
+        "tabs"
+    ],
+    "background": {
+        "scripts": ["js/main.js"],
+        "persistent": false
+    },
+    "content_scripts":[
+        {
+            "matches":["<all_urls>"],
+            "js": ["js/clent.js"]
+        }
+    ]
+}
